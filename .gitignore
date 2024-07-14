@@ -1,32 +1,20 @@
-# Prerequisites
-*.d
+# Visual Studio Solution and Project files
+*.sln
+*.suo
+*.user
+*.userprefs
+*.vspscc
+*.vssscc
+*.scc
+*.tmp
+*.cache
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Bin and Obj folders
+**/bin/**
+**/obj/**
 
-# Precompiled Headers
-*.gch
-*.pch
+# User specific files
+.vs/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Log files
+*.log
